@@ -18,13 +18,28 @@
     opacity: 1.6;
     z-index: 2;
 }
-#wallpaper{
+.pad-img{
+    background-color: red;
+    background-image: url("img/g1a.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.wallpaper{
     background-color: red;
     background-image: url("img/bac.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
+    width: 100%;
     display: grid;
     align-content: center;
     justify-content: center;
+}
+.text{
+    font-size: 75px;
 }
