@@ -18,6 +18,13 @@
     opacity: 1.6;
     z-index: 2;
 }
-#card-hrader{
-    background-image: url(img/bac.png);
+#wallpaper{
+    background-color: red;
+    background-image: url("img/bac.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
 }
